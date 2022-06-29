@@ -1,0 +1,50 @@
+.content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 3vh;
+    width: 20vw;
+    border: 1px solid rgb(20, 8, 122);
+}
+
+.addButton {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    background-image: url('./../assets/plus-icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.addButton:hover {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.removeButton {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: white;
+    background-image: url('./../assets/minus-icon.png');
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    margin: 5px;
+}
+
+.removeButton:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 35px;
+}
